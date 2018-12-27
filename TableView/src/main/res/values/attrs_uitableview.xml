@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="UITableView">
+        <attr name="android:background" format="color|reference"/>
+        <attr name="uitableview_contentStartOffset" format="dimension"/>
+        <attr name="uitableview_contentEndOffset" format="dimension"/>
+    </declare-styleable>
+    
+    <declare-styleable name="ContentView">
+        <attr name="android:padding" format="dimension"/>
+        <attr name="android:paddingLeft" format="dimension"/>
+        <attr name="android:paddingStart" format="dimension"/>
+        <attr name="android:paddingTop" format="dimension"/>
+        <attr name="android:paddingRight" format="dimension"/>
+        <attr name="android:paddingEnd" format="dimension"/>
+        <attr name="android:paddingBottom" format="dimension"/>
+        <attr name="android:minHeight" format="dimension"/>
+    </declare-styleable>
+    
+    <declare-styleable name="UITableViewCell">
+    
+        <!--<attr name="foregroundPadding" format="dimension"/>-->
+        <!--<attr name="foregroundPaddingLeft" format="dimension"/>-->
+        <!--<attr name="foregroundPaddingTop" format="dimension"/>-->
+        <!--<attr name="foregroundPaddingRight" format="dimension"/>-->
+        <!--<attr name="foregroundPaddingBottom" format="dimension"/>-->
+        <!--<attr name="foregroundMinHeight" format="dimension" />-->
+        
+        <!-- UITableViewCell.Style -->
+        <attr name="cellStyle">
+            <flag name="Custom" value="0" />
+            <flag name="Default" value="1" />
+            <flag name="Value1" value="2" />
+            <flag name="Value2" value="3" />
+            <flag name="SubTitle" value="4" />
+        </attr>
+        <!-- UITableViewCell.AccessoryType -->
+        <attr name="cellAccessoryType">
+            <flag name="None" value="0" />
+            <flag name="Custom" value="1" />
+            <flag name="Detail" value="2" />
+            <flag name="Disclosure" value="3" />
+        </attr>
+        <!-- custom accessory drawable -->
+        <attr name="cellAccessoryDrawable" format="reference"/>
+        <!-- UITableViewCell.SelectionStyle -->
+        <attr name="cellSelectionStyle">
+            <flag name="None" value="0" />
+            <flag name="Custom" value="1"/>
+            <flag name="Gray" value="2" />
+            <flag name="Blue" value="3" />
+        </attr>
+        <!-- custom background -->
+        <attr name="cellSelectionDrawable" format="reference"/>
+        <!-- UITableViewCell.mImageView -->
+        <attr name="cellImage" format="reference" />
+        
+    </declare-styleable>
+
+</resources>

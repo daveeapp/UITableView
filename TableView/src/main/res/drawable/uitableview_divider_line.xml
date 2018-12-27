@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="line">
+    <stroke android:color="#b8b8b8" android:width="1px"/>
+    <!-- 显示的控件高度必须大于height才能正常显示 -->
+    <size android:height="1px" />
+</shape>

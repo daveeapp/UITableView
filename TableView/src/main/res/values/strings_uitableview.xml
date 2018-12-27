@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UITableView</string>
+    <string name="uitableview_text_imageview_desc" translated="false">UITableView ImageView Description</string>
+    <string name="uitableview_text_title" translated="false">Title</string>
+    <string name="uitableview_text_value" translated="false">Value</string>
+    <string name="uitableview_text_subTitle" translated="false">SubTitle</string>
+    <string name="uitableview_text_sectionHeader" translated="false">SectionHeader</string>
+    <string name="uitableview_text_sectionFooter" translated="false">SectionFooter</string>
+    
+</resources>

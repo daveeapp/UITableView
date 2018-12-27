@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ============== -->
+    <!-- ids for widget -->
+    <!-- ============== -->
+    <item name="uitableview_cell_imageView" type="id"/>
+    <item name="uitableview_cell_accessoryView" type="id"/>
+    <item name="uitableview_cell_contentView" type="id"/>
+    <item name="uitableview_cell_titleTextView" type="id"/>
+    <item name="uitableview_cell_valueTextView" type="id"/>
+    
+    <!-- ============================= -->
+    <!-- ViewTypes for UITableViewCell -->
+    <!-- ============================= -->
+    <item name="uitableview_cell_viewType_default" type="id"/>
+    <item name="uitableview_cell_viewType_value1" type="id"/>
+    <item name="uitableview_cell_viewType_value2" type="id"/>
+    <item name="uitableview_cell_viewType_subtitle" type="id"/>
+    <item name="uitableview_cell_viewType_default_selectable" type="id"/>
+    <item name="uitableview_cell_viewType_selectable" type="id"/>
+    <item name="uitableview_cell_viewType_switch" type="id"/>
+    <item name="uitableview_cell_viewType_edit" type="id"/>
+    <item name="uitableview_cell_viewType_section_header" type="id"/>
+    <item name="uitableview_cell_viewType_section_footer" type="id"/>
+    
+    <!-- ids for Swipe Action -->
+    <item name="uitableview_cell_swipe_action_delete" type="id"/>
+</resources>

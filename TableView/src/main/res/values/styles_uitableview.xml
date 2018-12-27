@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="UITableView">
+        <!-- Nothing -->
+    </style>
+    
+    <style name="UITableView.UITableViewCell">
+        <!-- Nothing -->
+    </style>
+    
+    <!-- UITableViewCell -->
+    <style name="UITableView.UITableViewCell.Default">
+        <!--<item name="foregroundPaddingLeft">@dimen/uitableview_common_margin_start</item>-->
+        <!--<item name="foregroundPaddingRight">@dimen/uitableview_common_margin_start</item>-->
+        <!--<item name="foregroundPaddingTop">@dimen/uitableview_common_8dp</item>-->
+        <!--<item name="foregroundPaddingBottom">@dimen/uitableview_common_8dp</item>-->
+        <!--<item name="foregroundMinHeight">@dimen/uitableview_cell_minHeight</item>-->
+        <!--<item name="android:background">@drawable/uitableview_cell_selectionstyle_gray</item>-->
+    </style>
+    
+    <!-- ========================== -->
+    <!-- UITableViewCell Appearance -->
+    <!-- ========================== -->
+    <style name="UITableView.TextAppearance">
+        <item name="android:textSize">@dimen/uitableview_cell_textSize_title</item>
+    </style>
+    <style name="UITableView.TextAppearance.Title">
+        <item name="android:textColor">@color/uitableview_color_cell_title</item>
+    </style>
+    <style name="UITableView.TextAppearance.Detail">
+        <item name="android:textSize">@dimen/uitableview_cell_textSize_detail</item>
+        <item name="android:textColor">@color/uitableview_color_lightGray</item>
+    </style>
+    <style name="UITableView.TextAppearance.SectionTitle">
+        <item name="android:textSize">@dimen/uitableview_section_textSize_title</item>
+    </style>
+    
+    <!-- UITableViewCell.Title -->
+    <style name="UITableView.UITableViewCell.Title">
+        <!--<item name="android:textAppearance">?android:attr/textAppearanceListItem</item>-->
+        <item name="android:textColor">@color/uitableview_color_cell_title</item>
+        <item name="android:textSize">@dimen/uitableview_cell_textSize_title</item>
+    </style>
+    
+    <style name="UITableView.UITableViewCell.Value">
+        <item name="android:textSize">@dimen/uitableview_cell_textSize_detail</item>
+        <item name="android:textColor">@color/uitableview_color_lightGray</item>
+    </style>
+
+</resources>

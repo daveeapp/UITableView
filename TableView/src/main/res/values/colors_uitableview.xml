@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- =================================================================
+                            MARK: - UITableView
+         ================================================================= -->
+    
+    <!-- DarkGray  #67 -->
+    <color name="uitableview_color_background">#EFEFF4</color>
+    <color name="uitableview_color_cell_title">#0f0f0f</color>
+    <color name="uitableview_color_darkGray">#676767</color>
+    <color name="uitableview_color_lightGray">#b8b8b8</color>
+    <color name="uitableview_color_blue">#3B99FC</color>
+    <!-- Color for cell selection style -->
+    <color name="uitableview_color_selection_gray">#d9d9d9</color>
+    <!-- Color for swiping action background -->
+    <color name="uitableview_color_swiping_destructive">#FF3B30</color>
+    <color name="uitableview_color_swiping_normal">#595AD3</color>
+    <!-- Color for editing selection style -->
+    <color name="uitableview_color_editing_add">#44ff5e</color>
+    <color name="uitableview_color_editing_delete">#FF3B30</color>
+    <color name="uitableview_color_cell_editing_selected">#e9f0fa</color>
+</resources>
